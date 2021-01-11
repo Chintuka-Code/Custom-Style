@@ -36,3 +36,26 @@ body::-webkit-scrollbar {
   border-radius: 10px;
   height: 80px;
 }
+
+.file-container {
+  position: relative;
+}
+.file {
+  display: none;
+}
+
+label {
+  color: white;
+  height: 30px;
+  width: 130px;
+  background-color: red;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 10px;
+}
